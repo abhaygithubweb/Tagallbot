@@ -4,7 +4,7 @@ import asyncio
 import random
 from config import TXT
 
-@app.on_message(filters.command("tagall") & filters.groups)
+@app.on_message(filters.command("tagall") & filters.group)
 async def tag_all_members(app, message):
     async for member in app.get_chat_members(message.chat.id):
         mention = member.user.mention
