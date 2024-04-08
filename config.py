@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #Necessary Variables 
-API_ID = int(getenv("API_ID", "")) 
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "") #Put your bot token here
-LOG_ID = int(getenv("LOG_ID", ""))
-SUDOERS = list(map(int, getenv("SUDOERS", "").split()))
+API_ID = int(getenv("API_ID", "29400566")) 
+API_HASH = getenv("API_HASH", "8fd30dc496aea7c14cf675f59b74ec6f")
+BOT_TOKEN = getenv("BOT_TOKEN", "7183295941:AAE0-CcUNxRb7qJVlgJmTz-QIH1n8IbAt18") #Put your bot token here
+LOG_ID = int(getenv("LOG_ID", "-1002022578109"))
+SUDOERS = list(map(int, getenv("SUDOERS", "6717765982").split()))
 
 
 TXT = [
@@ -56,4 +56,17 @@ TXT = [
     "I love u 🙈",
     "Ky aapke v dost garib h😁😆",
     "Aap grp me na aate to Mera dil hi na lgta🥹",
+    "on aja bhai",
+    "kitna soye ga bhai tu",
+    "gali q di thi kal muje",
+    "paisa dede thora",
+    "chlo datepr chlyn",
+    "where are you babe",
+    "hello",
+    "good morning my love",
+    "good night babe",
+    "good afternoon",
+    "sb soty rhty han idhr",
+    "ankhy khol le bhai",
+    "uth jao ab to babe",
 ]
